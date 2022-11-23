@@ -16,7 +16,7 @@ public class Main {
                 try {
                     queueA.put(text);
                     queueB.put(text);
-                    queueA.put(text);
+                    queueC.put(text);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
